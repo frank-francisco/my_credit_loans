@@ -217,6 +217,9 @@ class _LoanApplicationPageState extends State<LoanApplicationPage> {
                               padding: EdgeInsets.symmetric(horizontal: 16),
                               backgroundColor: Colors.grey[100],
                             ),
+                            SizedBox(
+                              width: 16,
+                            ),
                             ChoiceChip(
                               shape: RoundedRectangleBorder(
                                 side: BorderSide(
